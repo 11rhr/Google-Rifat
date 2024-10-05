@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+section header{
+    position: absolute;
+    width: 100%;
+    justify-content: flex-end;
+    padding: 20px;
+    display: flex;
+    top: 0;
+}
+section header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section header ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+section header ul li a{
+    text-decoration: none;
+    font-size: 13px;
+    color: black;
+}
+section header ul li button{
+    background-color: #4584ef;
+    border: none;
+    outline: none;
+    padding: 8px 14px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 3px;
+}
+section .mine{
+    width: 580px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section .mine .serchbox{
+    width: 100%;
+    position: relative;
+    margin-top: 20px;
+}
+section .mine .serchbox .search{
+    width: 100%;
+    padding: 13px;
+    padding-left: 45px;
+    padding-right: 55px;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    outline: none;
+}
+section .mine .serchbox .icon{
+    position: absolute;
+    top: 0;
+    display: flex;
+    padding: 10px 20px;
+    width: 100%;
+    justify-content:space-between;
+    align-items: center;
+    pointer-events: none;
+}
+section .mine .buttons{
+    margin-top: 20px;
+}
+section .mine .buttons button{
+    margin: 0px 5px;
+    padding: 12px 20px;
+    color: #555;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    border: 1px solid transparent;
+}
+section .mine .buttons button:hover{
+    border: 1px solid #ccc;
+}
+section .mine .lang{
+    margin-top: 20px;
+}
+section .fotter{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background-color: #f2f2f2;
+}
+section .fotter .row{
+    display: flex;
+    justify-content:space-between;
+    border-top: 1px solid rgb(189, 189, 189);
+}
+section .fotter .row ul{
+    display: flex;
+}
+section .fotter .row ul li{
+    list-style: none;
+}
+section .fotter .row ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #5f6368;
+    margin-right: 25px;
+}
